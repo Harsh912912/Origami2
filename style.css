@@ -1,0 +1,40 @@
+h1 {
+    color: orangered;
+}
+
+ * {
+    border: solid;
+}
+.header{
+    background-color: orange;
+    display:flex;
+    justify-content: space-between;
+}
+.body{
+    background-color: aquamarine;
+    display:flex;
+    justify-content: space-between;
+}
+body{
+    background-image: linear-gradient( rgb(255, 0, 191, 0.788)),
+    url("origami.jpg");;
+    font-style: italic;
+    border-color: rgb(9, 206, 160);
+}
+.grid{
+    background-image: linear-gradient(rgba(255, 0, 191, 0.788)),
+    url("origami.jpg");;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+}
+.origami{
+    background-color: chartreuse;
+    font-style: initial;
+    text-transform: capitalize;
+    border-radius: 20px;
+    background-blend-mode: luminosity;
+    width:310px;
+    font-family: fantasy;
+}
+
